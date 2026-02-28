@@ -67,7 +67,6 @@
 
                     404px, 920px, 1280px
                     -->
-                    <!-- PICTURE / ART DIRECTION -->
                     <picture>
                         <source media="(min-width: 1280px)" srcset="images/majorca-beach-horizontal-l.jpg">
                         <source media="(min-width: 920px)" srcset="images/majorca-beach-vertical-m.jpg">
@@ -132,7 +131,6 @@
             <section id="testimonials">
                 <h3>Testimonials</h3>
 
-                <!-- PERSON: MIRANDA -->
                 <section>
                     <!--Responsive Image for resolution switching
                         images/miranda-blake-L.png" 
@@ -156,7 +154,6 @@
                     </div>
                 </section>
 
-                <!-- PERSON: MAX -->
                 <section>
                     <!--Responsive Image for resolution switching
                         images/max-winter-L.png
@@ -180,7 +177,6 @@
                     </div>
                 </section>
 
-                <!-- PERSON: INÉS -->
                 <section>
                     <!--Responsive Image for resolution switching
                         images/ines-villegoes-L.png
@@ -204,7 +200,6 @@
                     </div>
                 </section>
 
-                <!-- PERSON: CARMEN -->
                 <section>
                     <!--Responsive Image for resolution switching
                         images/carmen-lorenzo-L.png
@@ -233,7 +228,6 @@
             <section id="about-your-destination">
                 <h3>About Your Destination</h3>
 
-                <!-- FACT: SIZE -->
                 <section>
                     <h4>Size</h4>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-ruler-2" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#1B263B" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -249,8 +243,6 @@
                         <dd>1,405 miles squared</dd>
                     </dl>
                 </section>
-
-                <!-- FACT: ELEVATION -->
                 <section>
                     <h4>Elevation</h4>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-top-bar" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#1B263B" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -264,8 +256,6 @@
                         <dd>4,741 feet</dd>
                     </dl>
                 </section>
-
-                <!-- FACT: LOCATION -->
                 <section>
                     <h4>Location</h4>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#1B263B" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -278,8 +268,6 @@
                         <dd>Mediterranean</dd>
                     </dl>
                 </section>
-
-                <!-- FACT: POPULATION -->
                 <section>
                     <h4>Population</h4>
                     <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-users" width="100" height="100" viewBox="0 0 24 24" stroke-width="1" stroke="#1B263B" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -306,72 +294,68 @@
 
             <!-- FORM -->
             <form action="#" method="post">
-                <!-- NAME -->
                 <label for="first-name">First Name<span>*</span></label>
                 <input type="text" id="first-name" name="firstName" autocomplete="given-name" required>
 
                 <label for="last-name">Last Name<span>*</span></label>
                 <input type="text" id="last-name" name="lastName" autocomplete="family-name" required>
 
-                <!-- CONTACT -->
                 <label for="email">Email<span>*</span></label>
                 <input type="email" id="email" name="email" autocomplete="email" required>
 
-                <label for="phone">Phone<span>*</span></label>
-                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
-
-                <!-- RADIO GROUP -->
-                <fieldset id="preferred-contact">
-                    <legend>Preferred Contact Method<span>*</span></legend>
-
-                    <div>
-                        <input type="radio" id="contact-email" name="preferredContact" value="email" required>
-                        <label for="contact-email">Email</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="contact-text" name="preferredContact" value="text" required>
-                        <label for="contact-text">Text</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="contact-phone" name="preferredContact" value="phone" required>
-                        <label for="contact-phone">Phone</label>
-                    </div>
-                </fieldset>
-
-                <!-- SELECTS -->
                 <fieldset id="destination">
                     <legend>Destination<span>*</span></legend>
                     <select id="select-destination" name="destination" required>
-                        <option value="">Choose</option>
-                        <option value="Barcelona">Barcelona</option>
-                        <option value="Granada">Granada</option>
-                        <option value="Ibiza">Ibiza</option>
-                        <option value="Madrid">Madrid</option>
-                        <option value="Majorca">Majorca</option>
-                        <option value="Seville">Seville</option>
-                        <option value="Tenerife">Tenerife</option>
-                        <option value="Valencia">Valencia</option>
-                        <option value="Other">Other</option>
+                    <option value="">Choose</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Granada">Granada</option>
+                    <option value="Ibiza">Ibiza</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Majorca">Majorca</option>
+                    <option value="Seville">Seville</option>
+                    <option value="Tenerife">Tenerife</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Other">Other</option>
                     </select>
                 </fieldset>
 
                 <fieldset id="travelTime">
                     <legend>Travel Time<span>*</span></legend>
                     <select id="select-travel-time" name="travelTime" required>
-                        <option value="">Choose</option>
-                        <option value="Fall">Fall</option>
-                        <option value="Winter">Winter</option>
-                        <option value="Spring">Spring</option>
-                        <option value="Summer">Summer</option>
-                        <option value="Flexible">Flexible</option>
+                    <option value="">Choose</option>
+                    <option value="Fall">Fall</option>
+                    <option value="Winter">Winter</option>
+                    <option value="Spring">Spring</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Flexible">Flexible</option>
                     </select>
                 </fieldset>
 
-                <!-- COMMENTS -->
+                <label for="phone">Phone<span>*</span></label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+
+                <fieldset id="preferred-contact">
+                    <legend>Preferred Contact Method<span>*</span></legend>
+
+                    <div>
+                    <input type="radio" id="contact-email" name="preferredContact" value="email" required>
+                    <label class="form-control" for="contact-email">Email</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" id="contact-text" name="preferredContact" value="text" required>
+                    <label class="form-control" for="contact-text">Text</label>
+                    </div>
+
+                    <div>
+                    <input type="radio" id="contact-phone" name="preferredContact" value="phone" required>
+                    <label class="form-control" for="contact-phone">Phone</label>
+                    </div>
+                </fieldset>
+
                 <label for="comments">Comments</label>
                 <textarea id="comments" name="comments"></textarea>
 
-                <!-- SUBMIT -->
                 <input type="submit" id="submit" value="Submit">
             </form>
         </section>
